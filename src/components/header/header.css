@@ -1,0 +1,52 @@
+header {
+    background : var(--color-bg);
+    height : 100vh;
+    padding-top : 7rem;
+    overflow :hidden;
+}
+.header__container{
+    text-align :left;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-size: 40px;
+    
+}
+.header__socials{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    position: absolute;
+    margin-top: 2rem;
+  
+}
+.header__socials:hover {
+    
+        transform: scale(1.06);
+        transition: var(--transition);
+}
+.me-image {
+    
+    /* width:68rem;
+    height :30rem; 
+    position: absolute; */
+   
+    /* aspect-ratio: 1/1;
+    right:calc(15% - 20rem);
+    margin-top: -20rem; */
+    width: 40%; /* width of container */
+    height: 10%; /* height of container */
+    margin-left: 45%;
+    margin-top: -20rem;
+    position: relative;
+
+   
+   
+    
+}
+.me-image:hover {
+    transform: scale(1.06);
+    transition: var(--transition);
+   
+}
+
+

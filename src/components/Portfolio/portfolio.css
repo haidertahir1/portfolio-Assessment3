@@ -1,0 +1,40 @@
+.portfolio {
+    background :var(--color-bg3);
+}
+.portfolio{
+    font-size: 40px;
+    margin-left: 4rem;
+}
+.img1{
+  /* height: auto; */
+  margin-top: 20%;
+  max-width: 40%;
+  margin-left: 7.2rem;
+    
+}
+.img1.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.img2{
+   margin-top: -50rem;
+   max-width: 40%;
+   margin-left: 50rem;
+ 
+}
+.img3{
+    max-width: 40%;
+   margin-left: 50rem;
+    
+}
+.img4{
+    max-width: 40%;
+   margin-left: 7.2rem;
+   margin-top: -13rem;
+    
+}
